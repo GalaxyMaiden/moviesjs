@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie shop</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="movies">
+        <div class="movie movie1">
+          <div class="poster poster1"></div>
+          <div class="text1">
+            <p><span>Genre:</span> Drama</p>
+            <p><span>Projection time:</span> 2h 35min</p>
+            <p>
+              <span>Plot:</span> Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Ut tenetur iusto alias necessitatibus maiores
+              sequi.
+            </p>
+            <p>
+              <span>Rating:</span
+              ><img src="./img/rate.png" alt="rating stars png" />
+            </p>
+            <span>Price:</span>
+            <h2 class="price1">$8</h2>
+            <button onclick="buyMovie1(this)">Buy</button>
+          </div>
+        </div>
+        <div class="movie movie2">
+          <div class="poster poster2">
+            <div class="attack"></div>
+          </div>
+          <div class="text2">
+            <p><span>Genre:</span> Thriller</p>
+            <p><span>Projection time:</span> 1h 35min</p>
+            <p>
+              <span>Plot:</span> Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Ut tenetur iusto alias necessitatibus maiores
+              sequi.
+            </p>
+            <p>
+              <span>Rating:</span
+              ><img src="./img/rate.png" alt="rating stars png" />
+            </p>
+            <span>Price:</span>
+            <h2 class="price2">$5</h2>
+            <button onclick="buyMovie2(this)">Buy</button>
+          </div>
+        </div>
+        <div class="movie movie3">
+          <div class="poster poster3"></div>
+          <div class="text3">
+            <p><span>Genre:</span> Drama,Action</p>
+            <p><span>Projection time:</span> 2h 05min</p>
+            <p>
+              <span>Plot:</span> Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Ut tenetur iusto alias necessitatibus maiores
+              sequi.
+            </p>
+            <p>
+              <span>Rating:</span
+              ><img src="./img/rate.png" alt="rating stars png" />
+            </p>
+            <span>Price:</span>
+            <h2 class="price3">$10</h2>
+            <button onclick="buyMovie3(this)">Buy</button>
+          </div>
+        </div>
+        <div class="movie movie4">
+          <div class="poster poster4"></div>
+          <div class="text4">
+            <p><span>Genre:</span> Action,Adventure</p>
+            <p><span>Projection time:</span> 3h 02min</p>
+            <p>
+              <span>Plot:</span> Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Ut tenetur iusto alias necessitatibus maiores
+              sequi.
+            </p>
+            <p>
+              <span>Rating:</span
+              ><img src="./img/rate.png" alt="rating stars png" />
+            </p>
+            <span>Price:</span>
+            <h2 class="price4">$15</h2>
+            <button onclick="buyMovie4(this)">Buy</button>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="bought">
+        <div class="price">
+          <h1>
+            Total spent:$
+            <p  class="total-spent"></p>
+          </h1>
+          <h1>
+            Movies bought:
+            <p class="movies-bought"></p>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
